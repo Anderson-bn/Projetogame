@@ -5,10 +5,6 @@ from pygame import Surface, Rect
 from pygame.font import Font
 
 from code.Const import WIN_WIDTH
-import pygame.image
-from pygame import Surface, Rect
-from pygame.font import Font
-
 class Menu:
     def __init__(self, window):
         self.window: Surface = window
