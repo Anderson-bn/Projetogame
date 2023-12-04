@@ -1,5 +1,5 @@
 #!/usr/bin/python
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 import sys
 
 import pygame as pygame
@@ -9,7 +9,7 @@ from pygame.font import Font
 
 from code.Const import WIN_WIDTH, WIN_HEIGHT, MENU_OPTION
 from code.Menu import Menu
-from code.level import Level
+from code.Level import Level
 
 
 class Game:
@@ -28,6 +28,3 @@ class Game:
             else:
                 pygame.quit()
                 sys.exit()
-
-
-
